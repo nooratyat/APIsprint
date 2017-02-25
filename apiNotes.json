@@ -1,6 +1,6 @@
 {
   "/api": {
-    "/movies": {
+    "/car": {
       "/": {
         "GET": {
           "description": "get all movies",
@@ -21,10 +21,10 @@
         }
       }
     },
-    "/books": {
+    "/song": {
       "/": {
         "GET": {
-          "description": "get all books",
+          "description": "get all songs",
           "response": "200 application/json",
           "data": "[{},{}]"
         },
